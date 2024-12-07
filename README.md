@@ -3,7 +3,8 @@
 ### Key Words:
 Accumulator (ACC)
 Central Processing Unit (CPU)
-Erasable Programmable Read-only Memory (Eprom)
+Erasable Programmable Read-only Memory (eprom)
+Electrically Erasable Programmable Read-Only Memory (eeprom)
 
 ### Parts:
 UV Eraser:
@@ -33,11 +34,13 @@ https://www.aliexpress.com/item/1005007505549635.html?spm=a2g0o.order_list.order
 
 
 ## Parts
-The UV eraser is so I am able to clear the memory of the rom as it is an eprom and not an eeprom or flash memory
+The UV eraser is so I am able to clear the memory of the rom as it is an eprom and not an eeprom or flash memory. If you did want to use an eeprom then it could be a lot cheaper as the eeprom is erased by using electric signals instead of UV rays and you don't need an adjustable dc power supply to get (in this case) 12.75 volts to write to the eprom.
+The Adjustable DC power suplly that I have can support up to 30v but the highest for my specific rom is 13V and the cheapest one I can find (that's decent) is below which can support uo to 18V.
+https://cpc.farnell.com/duratool/d03233/power-supply-1ch-18v-3a-adjustable/dp/IN08000?st=dc%20adjustable 
 
-https://cpc.farnell.com/duratool/d03233/power-supply-1ch-18v-3a-adjustable/dp/IN08000?st=dc%20adjustable
 
 
+Also sidenote, if you happen to have a GQ-4X4 or a TL866II Plus laying around, then it will be a lot easier then using a raspberry pi (arduino uno may be better but I only had an arduino nano so I didn't want to start multiplexing bits) but I've already spent enough money, I didn't want to spend anymore for something that I may only use once to read and write 16 bit roms.
 
 
 I have a very limited idea of how to build a cpu apart from being a first year student studying computer architecture.
