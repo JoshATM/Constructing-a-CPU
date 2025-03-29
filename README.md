@@ -26,3 +26,8 @@ I have made a square wave generator (the clock) using a 555 timer, hopes and pra
 
 I have made a 16 bit counter that counts up to 65536 (or 2^16) as my ROM can store 64k x 16 bit instructions.
 --- Image ---
+
+#
+
+I don't knoe why but it's currently 4:19 when typing this but why on earth when I ground a random output, does my binary counter not miss the first number!?!?
+
