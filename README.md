@@ -28,3 +28,5 @@ I have made a 16 bit counter that counts up to 65536 (or 2^16) as my ROM can sto
 --- Image ---
 
 #
+
+The first working prototype's code (102b 3000 1040 3001 2100 3002 f000) only officially works with the adder, I have not tested any other method as I am currently in the middle of finding out how to use the ram bidirectionally, instead of the input and output being different.
