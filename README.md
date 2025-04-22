@@ -24,13 +24,13 @@ For this project I am going to use a 16 bit rom and 8 bit ram so then I can call
 #
 
 I have made a square wave generator (the clock) using a 555 timer, hopes and prayers. I have also check the signal using (compared to professional ones) a cheap oscillator.
---- Image ---
+![IMG_1543 1](https://github.com/user-attachments/assets/69f19893-fb23-41ee-b7c4-98f3f532b193)
+#![IMG_1473](https://github.com/user-attachments/assets/e496ec43-ac7a-4253-8100-e885f7c6ece1)
 
-#
 
 I have made a 16 bit counter that counts up to 65536 (or 2^16) as my ROM can store 64k x 16 bit instructions. When I branch I can only access the first 128 (2^8 (cause of my 8 bit ram)) but I don't think I'll be using anywhere near that many instructions* and even if I do then I just need to make sure I don't need to branch to them. *I do want to maybe at some point make a gpu core to render out to a vga output or something similar as it is simple but I haven't started thinking about how I could do that or how I could even implement it into my cpu but I would like to do it eventually.
-
---- Image ---
+(I know it's just an image but trust me it works, I'll add a video later when the whole thing works)
+![IMG_1484](https://github.com/user-attachments/assets/21fc1226-0355-44da-8feb-ce0ef9edde5e)
 
 #
 
