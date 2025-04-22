@@ -15,7 +15,7 @@ Images may not be great quality because I took them on my phone, then put them o
 
 Final (if not close to it) of the logisim-evolution diagram
 ![awdwa](https://github.com/user-attachments/assets/9be805de-51ce-4698-beff-893779eb1d1e)
-(It's not the best quality I know but the code is there for a further analysis)
+(It's not the best quality because it's so zoomed out but the code is there for a further analysis)
 
 #
 
