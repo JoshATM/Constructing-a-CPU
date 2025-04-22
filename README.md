@@ -8,6 +8,10 @@ Electrically Erasable Programmable Read-Only Memory (eeprom)
 
 #
 
+Although I have some earlier versions and some later versions, I don't plan on changing anything after 22/04/2025 but you never know what's going to happen. Also Images are from different times as some are through development and some are after.
+
+#
+
 I have a very limited idea of how to build a cpu apart from being a first year student studying computer architecture.
 The aim of the project is that I want this cpu to work, it doesn't have to be fast, it doesn't have to be applicable in real world applications, it just has to work as a cpu.
 
@@ -25,6 +29,7 @@ I have made a square wave generator (the clock) using a 555 timer, hopes and pra
 #
 
 I have made a 16 bit counter that counts up to 65536 (or 2^16) as my ROM can store 64k x 16 bit instructions. When I branch I can only access the first 128 (2^8 (cause of my 8 bit ram)) but I don't think I'll be using anywhere near that many instructions* and even if I do then I just need to make sure I don't need to branch to them. *I do want to maybe at some point make a gpu core to render out to a vga output or something similar as it is simple but I haven't started thinking about how I could do that or how I could even implement it into my cpu but I would like to do it eventually.
+
 --- Image ---
 
 #
