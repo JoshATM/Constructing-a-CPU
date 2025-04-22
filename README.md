@@ -9,6 +9,7 @@ Electrically Erasable Programmable Read-Only Memory (eeprom)
 #
 
 Although I have some earlier versions and some later versions, I don't plan on changing anything after 22/04/2025 but you never know what's going to happen. Also Images are from different times as some are through development and some are after.
+Images may not be great quality because I took them on my phone, then put them on my pc to then take a screenshot and then to paste into github as they weren't appearing and I suspect it was because they were too big in file size.
 
 #
 
@@ -24,13 +25,14 @@ For this project I am going to use a 16 bit rom and 8 bit ram so then I can call
 #
 
 I have made a square wave generator (the clock) using a 555 timer, hopes and prayers. I have also check the signal using (compared to professional ones) a cheap oscillator.
-![IMG_1543 1](https://github.com/user-attachments/assets/69f19893-fb23-41ee-b7c4-98f3f532b193)
-#![IMG_1473](https://github.com/user-attachments/assets/e496ec43-ac7a-4253-8100-e885f7c6ece1)
+![image](https://github.com/user-attachments/assets/6c3ffd6f-172b-4d13-9e1b-c2c2a63da535)
+![image](https://github.com/user-attachments/assets/66585ab4-cddd-4115-97ea-60004d881e66)
 
+#
 
 I have made a 16 bit counter that counts up to 65536 (or 2^16) as my ROM can store 64k x 16 bit instructions. When I branch I can only access the first 128 (2^8 (cause of my 8 bit ram)) but I don't think I'll be using anywhere near that many instructions* and even if I do then I just need to make sure I don't need to branch to them. *I do want to maybe at some point make a gpu core to render out to a vga output or something similar as it is simple but I haven't started thinking about how I could do that or how I could even implement it into my cpu but I would like to do it eventually.
 (I know it's just an image but trust me it works, I'll add a video later when the whole thing works)
-![IMG_1484](https://github.com/user-attachments/assets/21fc1226-0355-44da-8feb-ce0ef9edde5e)
+![image](https://github.com/user-attachments/assets/49da99e0-0011-4f55-b970-65c4962b3206)
 
 #
 
