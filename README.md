@@ -1,4 +1,4 @@
-![IMG_1187](https://github.com/user-attachments/assets/5b782303-7661-405c-b369-b17e29e8e0e6)# Constructing a CPU
+# Constructing a CPU
 
 ### Key Words:
 Accumulator (ACC)
