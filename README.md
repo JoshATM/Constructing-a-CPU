@@ -44,4 +44,6 @@ I have made a 16 bit counter that counts up to 65536 (or 2^16) as my ROM can sto
 
 #
 
-The first working prototype's code (102b 3000 1040 3001 2100 3002 f000) only officially works with the adder (2100)
+Some test code for all circuits is 102b 3000 1040 3001 2100 3002 f000
+
+*WRITE A LIST OF WHAT EACH OF THE INSTRUCTIONS DO*
